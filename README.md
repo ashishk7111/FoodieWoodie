@@ -1,2 +1,2 @@
 # FoodieWoodie
-This website is about review of Food Recipe channels in Youtube and one can find best recipe according to the rating. We also provide from which channel you can find recipe for your desired cuisine.
+This website is about a cafe named FoodieWoodie which provides 100% natural organic tasty food.
