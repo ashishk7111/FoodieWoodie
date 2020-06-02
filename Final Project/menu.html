@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+font-family:ar decode;
+color:black;
+background:url(cafe1.jpg);
+background-size:1250px 800px;
+background-repeat: no-repeat; 
+}
+	hr { 
+  display: block;
+  margin-top: -3em;
+  margin-bottom:1em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+} 
+h3{
+text-align:right;
+}
+.footer {
+  font-family:san seriff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+ background-color:black;
+  color: white;
+  text-align: center;
+  margin-top:5em;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  overflow: hidden;
+  width: 180%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 50px;
+  position: absolute;
+  overflow: hidden;
+  font-weight:bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+</style>
+</head>
+<body>
+<h1 style=font-size:60px>FoodieWoodie</h1>
+<hr>
+<h3 style=font-size:30px>
+	<a href="home.html" style="color:black">Home</a>
+	<a href="menu.html" style="color:black">Menu</a>
+	<a href="book.html" style="color:black">BookATable</a>
+	<a href="about.html" style="color:black">About Us</a>
+	<a href="contact.html" style="color:black">Contact Us</a>
+	</h3>
+<div class="row">
+	
+  <div class="column">
+    <div class="container">
+	<img src="cheesepizza.jpg" alt="cheesepizza" style="width:280px;height:180px;" class="image">
+  <div class="overlay">
+    <div class="text">Pizza</div>
+  </div>
+</div>
+  </div>
+  <div class="column">
+  <div class="container">
+    <img src="alex-munsell.jpg" alt="alex-munsell" style="width:280px;height:180px;"class="image">
+  <div class="overlay">
+  <div class="text">Steak</div>
+  </div>
+</div>
+  </div>
+  <div class="column">
+  <div class="container">
+    <img src="pancakes.jpg" alt="pancakes" style="width:280px;height:180px;"class="image">
+  <div class="overlay">
+  <div class="text">Pancakes</div>
+  </div>
+</div>
+  </div>
+	<div class="column">
+	<div class="container">
+    <img src="pasta.jpg" alt="pasta" style="width:280px;height:180px;"class="image">
+	<div class="overlay">
+	<div class="text">Pesto Pasta</div>
+  </div>
+</div>
+</div>
+	
+	<div class="column">
+	<div class="container">
+    <img src="chicken.jpg" alt="chicken" style="width:280px;height:180px;"class="image">
+	<div class="overlay">
+	<div class="text">Chicken</div>
+  </div>
+</div>
+	</div>
+	
+  <div class="column">
+  <div class="container">
+    <img src="salads.jpg" alt="salads" style="width:280px;height:180px;"class="image">
+  <div class="overlay">
+  <div class="text">Salads</div>
+  </div>
+</div>
+  </div>
+  
+  <div class="column">
+  <div class="container">
+    <img src="fish.jpg" alt="fish" style="width:280px;height:180px;"class="image">
+  <div class="overlay">
+  <div class="text">Fish</div>
+  </div>
+</div>
+  </div>
+  
+  <div class="column">
+  <div class="container">
+    <img src="burger.jpg" alt="burger" style="width:280px;height:180px;"class="image">
+<div class="overlay"> 
+  <div class="text">Burger</div>
+</div>
+ </div>
+ </div>
+ <div class="column">
+  <div class="container">
+    <img src="cupcakes.jpg" alt="cupcakes" style="width:280px;height:180px;"class="image">
+<div class="overlay"> 
+  <div class="text">Cupcakes</div>
+</div>
+ </div>
+ </div>
+ <div class="column">
+  <div class="container">
+    <img src="spaghettti.jpg" alt="spaghettti" style="width:280px;height:180px;"class="image">
+<div class="overlay"> 
+  <div class="text">Spaghetti</div>
+</div>
+ </div>
+ </div>
+ <div class="column">
+  <div class="container">
+    <img src="sushi.jpg" alt="sushi" style="width:280px;height:180px;"class="image">
+<div class="overlay"> 
+  <div class="text">Sushi</div>
+</div>
+ </div>
+ </div>
+ <div class="column">
+  <div class="container">
+    <img src="taco.jpg" alt="taco" style="width:280px;height:180px;"class="image">
+<div class="overlay"> 
+  <div class="text">Taco</div>
+</div>
+ </div>
+ </div>
+  
+  
+  
+</div>	
+	
+	<div class="footer">
+
+  <p style=font-size:20px>&copy 2020 FoodieWoodie</p>
+</div>
+
+</body>
+</html>
